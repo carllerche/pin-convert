@@ -12,7 +12,6 @@ pub trait AsPinRef<T: ?Sized> {
 impl<T> AsPinRef<T::Target> for Pin<T>
 where
     T: Deref,
-
 {
     fn as_pin_ref(&self) -> Pin<&T::Target> {
         self.as_ref()

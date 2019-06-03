@@ -9,5 +9,5 @@
 mod as_pin_mut;
 mod as_pin_ref;
 
-pub use crate::as_pin_ref::AsPinRef;
 pub use crate::as_pin_mut::AsPinMut;
+pub use crate::as_pin_ref::AsPinRef;
