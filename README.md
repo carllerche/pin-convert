@@ -2,6 +2,8 @@
 
 Traits for converting to `Pin` variants.
 
+[![Build Status](https://dev.azure.com/carllerche/pin-convert/_apis/build/status/carllerche.pin-convert?branchName=master)](https://dev.azure.com/carllerche/pin-convert/_build/latest?definitionId=1&branchName=master)
+
 More information about this crate can be found in the [crate
 documentation][dox].
 
