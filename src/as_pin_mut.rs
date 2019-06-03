@@ -12,7 +12,6 @@ pub trait AsPinMut<T: ?Sized> {
 impl<T> AsPinMut<<T as Deref>::Target> for Pin<T>
 where
     T: DerefMut,
-
 {
     fn as_pin_mut(&mut self) -> Pin<&mut <T as Deref>::Target> {
         self.as_mut()
