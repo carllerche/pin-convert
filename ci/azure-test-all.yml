@@ -5,10 +5,10 @@ jobs:
     vmImage: ubuntu-16.04
   strategy:
     matrix:
-      stable:
-        rust_version: stable
-      beta:
-        rust_version: beta
+      # stable:
+      #   rust_version: stable
+      # beta:
+      #   rust_version: beta
       nightly:
         rust_version: nightly
   steps:
